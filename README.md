@@ -9,7 +9,7 @@ Curso de MySQL, aprenderás a trabajar con el leguaje SQL.
 1. Introducción a MySQL
 	1. Historia y características de MySQL/MariaDB
 	2. Instalación y configuración inicial
-	3. Herramientas de administración (MySQL Shell, Adminer, phpMyAdmin, DBeaver)
+	3. Herramientas de administración (phpMyAdmin, DBeaver)
 
 2. Estructura y arquitectura de MySQL
 	1. Arquitectura de bases de datos
