@@ -4,7 +4,7 @@ Curso de MySQL, aprenderás a trabajar con el leguaje SQL.
 
 ## Temario día 1
 
-![Presentación día 1](mysql_dia1.pdf)
+[Presentación día 1](mysql_dia1.pdf)
 
 1. Introducción a MySQL
 	1. Historia y características de MySQL/MariaDB
@@ -23,7 +23,7 @@ Curso de MySQL, aprenderás a trabajar con el leguaje SQL.
 
 ## Temario día 2
 
-![Presentación día 2](mysql_dia2.pdf)
+[Presentación día 2](mysql_dia2.pdf)
 
 4. Comandos de SQL para gestionar MySQL
 	1. INSERT, UPDATE, DELETE
@@ -40,7 +40,7 @@ Curso de MySQL, aprenderás a trabajar con el leguaje SQL.
 
 ## Temario día 3
 
-![Presentación día 3](mysql_dia3.pdf)
+[Presentación día 3](mysql_dia3.pdf)
 
 7. Triggers y eventos
 	1. Triggers
