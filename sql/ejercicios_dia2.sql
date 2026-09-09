@@ -38,3 +38,26 @@ CASE
     WHEN codiprov = 25 THEN "Lleida" 
     WHEN codiprov = 43 THEN "Tarragona" 
 END;
+
+-- Ejemplo de subquery
+-- Título del curso con más participantes
+
+SELECT titulo
+FROM `cursos`
+WHERE curso_id = (
+    SELECT curso_id
+	FROM `participantes`
+	GROUP BY curso_id
+	ORDER BY COUNT(*) DESC
+	LIMIT 1
+);
+
+-- Ejemplo de join
+-- Listado de cursos ordenado por cantidad de participantes
+
+SELECT cursos.titulo, COUNT(*) AS participantes
+FROM participantes
+INNER JOIN cursos
+ON cursos.curso_id = participantes.curso_id
+GROUP BY participantes.curso_id
+ORDER BY participantes DESC;
