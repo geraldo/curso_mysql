@@ -39,6 +39,12 @@ CASE
     WHEN codiprov = 43 THEN "Tarragona" 
 END;
 
+-- Crear una vista que muestra las provincias de Cataluña con sus habitantes.
+
+SELECT nomprov, SUM(habitants)
+FROM municipis
+GROUP BY nomprov;
+
 -- Ejemplo de subquery
 -- Título del curso con más participantes
 

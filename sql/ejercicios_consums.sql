@@ -32,7 +32,7 @@ SELECT descripcio_sector, SUM(consum_kwh)
 
 SELECT municipi, SUM(consum_kwh)
 	FROM `consums_electrics`
-	WHERE provincia="Barcelona" AND anyo = 2022
+	WHERE comarca="Barcelona" AND anyo = 2022
 	GROUP BY municipi
 	ORDER BY SUM(consum_kwh) DESC
 ;
@@ -41,7 +41,7 @@ SELECT municipi, SUM(consum_kwh)
 
 SELECT municipi, descripcio_sector, SUM(consum_kwh)
 	FROM `consums_electrics`
-	WHERE provincia="Barcelona" AND anyo = 2022
+	WHERE comarca="Barcelona" AND anyo = 2022
 	GROUP BY municipi, descripcio_sector
 	ORDER BY SUM(consum_kwh) DESC
 ;

@@ -1,6 +1,6 @@
 # Curso MySQL
 
-Curso de MySQL, aprenderás a trabajar con el leguaje SQL.
+Curso de la base de datos MySQL, aprenderás el leguaje SQL.
 
 ## Temario día 1
 
@@ -54,11 +54,6 @@ Curso de MySQL, aprenderás a trabajar con el leguaje SQL.
 	5. FLUSH
 	6. OPTIMIZE TABLE
 
-9. Administración de MySQL
-	1. Copias de seguridad y restauración
-	2. Permisos
-	3. Roles
-
-10. Conexión de una base de datos con un sitio web
+9. Conexión de una base de datos con un sitio web
 	1. Introducción a PHP
 	2. Práctica para crear una web básica
